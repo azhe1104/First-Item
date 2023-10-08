@@ -1,0 +1,12 @@
+// 输入@/会自动提示src目录下的所有文件
+// @/只是起到提示作用，转化成src/是vite.config.js中的resolve起作用（路径转化）
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*":[
+        "src/*"
+      ]
+    }
+  }
+}
